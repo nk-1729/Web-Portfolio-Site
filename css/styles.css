@@ -118,10 +118,13 @@ h1 {
     }
 }
 
-@media only screen and (max-width:550px) {
-
+@media only screen and (max-width:750px) {
     #project img {
-        width: 100px;
+        display: none;
+    }
+
+    .middle-project {
+        margin: 50px auto;
     }
 }
 
